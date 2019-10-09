@@ -1,6 +1,6 @@
 import time
 import telepot
-from telepot.loop
+import telepot.loop
 
 TOKEN = '729092994:AAG9qWNZp9rJ2xWU_EyywRno2ZkezvFUTOU'
 bot = telepot.Bot(TOKEN)
