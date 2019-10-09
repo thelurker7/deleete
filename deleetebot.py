@@ -1,6 +1,6 @@
 import time
 import telepot
-from telepot.loop import MessageLoop
+from telepot.loop
 
 TOKEN = '729092994:AAG9qWNZp9rJ2xWU_EyywRno2ZkezvFUTOU'
 bot = telepot.Bot(TOKEN)
@@ -35,7 +35,7 @@ def handle(msg):
             
             
 
-MessageLoop(bot, handle).run_as_thread()
+telepot.loop.MessageLoop(bot, handle).run_as_thread()
 
 
 # Keep the program running.
